@@ -1,0 +1,4090 @@
+{
+  "artist": {
+    "img1v1Id": 109951163032559306,
+    "topicPerson": 0,
+    "alias": [],
+    "picId": 109951163032558807,
+    "picUrl": "https://p4.music.126.net/P_FPhojh7Hlt0KjXJGhuqA==/109951163032558807.jpg",
+    "img1v1Url": "https://p4.music.126.net/W7bbmjgDdFrFxj_5k4ObXA==/109951163032559306.jpg",
+    "musicSize": 309,
+    "albumSize": 68,
+    "briefDesc": "Nick Miller，他的艺名illenium，是美国音乐家，DJ和制作人。他在2008年初开始制作电子舞曲。在2012的夏天，在看到Bassnectar表演的红色岩石，Miller变得对工作在他的第一个版本，热情的说，“当我看到他时，我得到了第二天Ableton。",
+    "followed": false,
+    "trans": "",
+    "name": "ILLENIUM",
+    "id": 1050518,
+    "publishTime": 1533525102599,
+    "accountId": 1357494990,
+    "picId_str": "109951163032558807",
+    "img1v1Id_str": "109951163032559306",
+    "mvSize": 17,
+    "followed": false
+  },
+  "hotSongs": [
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 12567101,
+          "name": "Nevve"
+        }
+      ],
+      "al": {
+        "id": 35157176,
+        "name": "Fractures",
+        "pic_str": "18748872278605604",
+        "pic": 18748872278605604
+      },
+      "st": 1,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 25,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5887626,
+        "vd": -83998.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 1416512,
+      "crbt": null,
+      "cf": "",
+      "dt": 245250,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9812680,
+        "vd": -86535.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3925098,
+        "vd": -82412.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Fractures",
+      "id": 456185577,
+      "privilege": {
+        "id": 456185577,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 261,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 854363,
+          "name": "Phoebe Ryan"
+        }
+      ],
+      "al": {
+        "id": 3103256,
+        "name": "Mine (Illenium Remix)",
+        "pic_str": "7762552092459017",
+        "pic": 7762552092459017
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 5343219,
+      "v": 14,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5995458,
+        "vd": -34700.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 7001,
+      "crbt": null,
+      "cf": "",
+      "dt": 249000,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9992402,
+        "vd": -36900.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3996986,
+        "vd": -34400.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Mine (Illenium Remix)",
+      "id": 30780496,
+      "privilege": {
+        "id": 30780496,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 0,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 893484,
+          "name": "The Chainsmokers"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 12213160,
+          "name": "Lennon Stella"
+        }
+      ],
+      "al": {
+        "id": 78222139,
+        "name": "World War Joy...Takeaway",
+        "pic_str": "109951164237873825",
+        "pic": 109951164237873825
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 10879530,
+      "v": 10,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5038751,
+        "vd": -31694.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7001,
+      "crbt": null,
+      "cf": "",
+      "dt": 209946,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8397889,
+        "vd": -34122.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3359182,
+        "vd": -30281.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Takeaway",
+      "id": 1380001880,
+      "privilege": {
+        "id": 1380001880,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 5,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 62916,
+          "name": "Kerli"
+        }
+      ],
+      "al": {
+        "id": 35425214,
+        "name": "Sound of Walking Away",
+        "pic_str": "109951163559671625",
+        "pic": 109951163559671625
+      },
+      "st": 1,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 10,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6081350,
+        "vd": -39900.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 1416512,
+      "crbt": null,
+      "cf": "",
+      "dt": 253333,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10135554,
+        "vd": -42399.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4054248,
+        "vd": -38400.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Sound of Walking Away",
+      "id": 473940907,
+      "privilege": {
+        "id": 473940907,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 261,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 12047264,
+          "name": "Call Me Karizma"
+        }
+      ],
+      "al": {
+        "id": 74321946,
+        "name": "God Damnit",
+        "pic_str": "109951163718191411",
+        "pic": 109951163718191411
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 5,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5182320,
+        "vd": -2.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 215902,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8637170,
+        "vd": -3.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3454894,
+        "vd": -2.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "God Damnit",
+      "id": 1323987109,
+      "privilege": {
+        "id": 1323987109,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1060019,
+          "name": "Marshmello",
+          "alia": [
+            "棉花糖"
+          ]
+        },
+        {
+          "id": 301757,
+          "name": "Khalid"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 36515091,
+        "name": "Silence (Illenium Remix)",
+        "pic_str": "18215609137935101",
+        "pic": 18215609137935101
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4924648,
+        "vd": -42900.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 7001,
+      "crbt": null,
+      "cf": "",
+      "dt": 205165,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8207717,
+        "vd": -45300.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3283113,
+        "vd": -41900.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Silence (Illenium Remix)",
+      "id": 512613695,
+      "privilege": {
+        "id": 512613695,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 4,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 15237536,
+          "name": "Runn"
+        }
+      ],
+      "al": {
+        "id": 36290028,
+        "name": "Awake",
+        "pic_str": "109951163029264241",
+        "pic": 109951163029264241
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 4,
+      "fee": 0,
+      "mv": 0,
+      "v": 133,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4944710,
+        "vd": -43300.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 205970,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8241154,
+        "vd": -45800.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3296488,
+        "vd": -41900.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Free Fall",
+      "id": 507585217,
+      "privilege": {
+        "id": 507585217,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 908182,
+          "name": "King Deco"
+        }
+      ],
+      "al": {
+        "id": 34497141,
+        "name": "Ashes",
+        "pic_str": "3388694840126687",
+        "pic": 3388694840126687
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 5,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7186015,
+        "vd": -30300.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 299363,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 11976663,
+        "vd": -32500.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4790691,
+        "vd": -29300.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Reverie",
+      "id": 403710535,
+      "privilege": {
+        "id": 403710535,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 893484,
+          "name": "The Chainsmokers"
+        },
+        {
+          "id": 1081186,
+          "name": "Daya"
+        }
+      ],
+      "al": {
+        "id": 34527569,
+        "name": "Don't Let Me Down (Illenium Remix)",
+        "pic_str": "3286440263176227",
+        "pic": 3286440263176227
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 13,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5258805,
+        "vd": -40100.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 7001,
+      "crbt": null,
+      "cf": "",
+      "dt": 219066,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8764647,
+        "vd": -42399.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3505884,
+        "vd": -39400.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Don't Let Me Down (Illenium Remix)",
+      "id": 405599648,
+      "privilege": {
+        "id": 405599648,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 4,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 44204,
+          "name": "Seven Lions"
+        },
+        {
+          "id": 1026094,
+          "name": "Said The Sky"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 13202710,
+          "name": "HALIENE"
+        }
+      ],
+      "al": {
+        "id": 34898956,
+        "name": "Rush Over Me",
+        "pic_str": "1386484178625296",
+        "pic": 1386484178625296
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 5,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6231188,
+        "vd": -52500.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 259608,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10385285,
+        "vd": -54800.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4154140,
+        "vd": -51100.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Rush Over Me",
+      "id": 434659448,
+      "privilege": {
+        "id": 434659448,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 14388929,
+          "name": "Georgia Ku"
+        }
+      ],
+      "al": {
+        "id": 80981667,
+        "name": "ASCEND",
+        "pic_str": "109951164297489345",
+        "pic": 109951164297489345
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 2,
+      "fee": 8,
+      "mv": 0,
+      "v": 7,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5648135,
+        "vd": -80631.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 235311,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9413529,
+        "vd": -83101.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3765438,
+        "vd": -79240.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Hold On",
+      "id": 1384492893,
+      "privilege": {
+        "id": 1384492893,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 72070801,
+        "name": "Take You Down",
+        "pic_str": "109951163440733532",
+        "pic": 109951163440733532
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5312723,
+        "vd": -47600.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 221335,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8854509,
+        "vd": -49899.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3541830,
+        "vd": -46300.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Take You Down",
+      "id": 1297747560,
+      "privilege": {
+        "id": 1297747560,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1026094,
+          "name": "Said The Sky"
+        },
+        {
+          "id": 12108797,
+          "name": "Annika Wells"
+        }
+      ],
+      "al": {
+        "id": 80981667,
+        "name": "ASCEND",
+        "pic_str": "109951164297489345",
+        "pic": 109951164297489345
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 12,
+      "fee": 8,
+      "mv": 0,
+      "v": 9,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5051916,
+        "vd": -60687.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 210468,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8419831,
+        "vd": -63260.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3367959,
+        "vd": -58983.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Sad Songs",
+      "id": 1384492897,
+      "privilege": {
+        "id": 1384492897,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 36290028,
+        "name": "Awake",
+        "pic_str": "109951163029264241",
+        "pic": 109951163029264241
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 8,
+      "fee": 0,
+      "mv": 0,
+      "v": 130,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4801768,
+        "vd": -30300.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 200000,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8002917,
+        "vd": -32800.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3201193,
+        "vd": -29400.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Lost",
+      "id": 507585224,
+      "privilege": {
+        "id": 507585224,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 12533901,
+          "name": "Anna Clendening"
+        }
+      ],
+      "al": {
+        "id": 80981667,
+        "name": "ASCEND",
+        "pic_str": "109951164297489345",
+        "pic": 109951164297489345
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 9,
+      "fee": 8,
+      "mv": 0,
+      "v": 9,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4760390,
+        "vd": -76733.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 198321,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 7933954,
+        "vd": -79267.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3173608,
+        "vd": -75151.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Broken Ones",
+      "id": 1384496797,
+      "privilege": {
+        "id": 1384496797,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 964321,
+          "name": "Halsey"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 74685057,
+        "name": "Without Me (ILLENIUM Remix)",
+        "pic_str": "109951163909487869",
+        "pic": 109951163909487869
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5975397,
+        "vd": -4.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 248946,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9958966,
+        "vd": -4.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3983613,
+        "vd": -4.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Without Me (ILLENIUM Remix)",
+      "id": 1329891159,
+      "privilege": {
+        "id": 1329891159,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1100001,
+          "name": "Ember Island"
+        }
+      ],
+      "al": {
+        "id": 36290028,
+        "name": "Awake",
+        "pic_str": "109951163029264241",
+        "pic": 109951163029264241
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 13,
+      "fee": 0,
+      "mv": 0,
+      "v": 129,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4423097,
+        "vd": -26400.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 184234,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 7371799,
+        "vd": -28900.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 2948746,
+        "vd": -24900.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Let You Go ",
+      "id": 507585216,
+      "privilege": {
+        "id": 507585216,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1181504,
+          "name": "Gryffin"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1081186,
+          "name": "Daya"
+        }
+      ],
+      "al": {
+        "id": 35235188,
+        "name": "Feel Good",
+        "pic_str": "18932490718683004",
+        "pic": 18932490718683004
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 5501094,
+      "v": 22,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5957216,
+        "vd": -33600.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 248189,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9928664,
+        "vd": -36100.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3971492,
+        "vd": -32000.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Feel Good",
+      "id": 462997848,
+      "privilege": {
+        "id": 462997848,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 12108797,
+          "name": "Annika Wells"
+        }
+      ],
+      "al": {
+        "id": 35886086,
+        "name": "Crawl Outta Love",
+        "pic_str": "109951163509399385",
+        "pic": 109951163509399385
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 5839058,
+      "v": 20,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5809885,
+        "vd": -4.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 1416512,
+      "crbt": null,
+      "cf": "",
+      "dt": 242011,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9683113,
+        "vd": -4.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3873271,
+        "vd": -4.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Crawl Outta Love",
+      "id": 495220827,
+      "privilege": {
+        "id": 495220827,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 261,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 860113,
+          "name": "Jon Bellion"
+        }
+      ],
+      "al": {
+        "id": 79087093,
+        "name": "Good Things Fall Apart",
+        "pic_str": "109951164071804194",
+        "pic": 109951164071804194
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 10871605,
+      "v": 7,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5201755,
+        "vd": -106058.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 100.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 216711,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8669562,
+        "vd": -108505.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3467851,
+        "vd": -104743.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Good Things Fall Apart",
+      "id": 1365046574,
+      "privilege": {
+        "id": 1365046574,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 780159,
+          "name": "X Ambassadors"
+        }
+      ],
+      "al": {
+        "id": 80981667,
+        "name": "ASCEND",
+        "pic_str": "109951164297489345",
+        "pic": 109951164297489345
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 14,
+      "fee": 8,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5298930,
+        "vd": -73244.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 220760,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8831521,
+        "vd": -75768.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3532635,
+        "vd": -71643.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "In Your Arms",
+      "id": 1384492898,
+      "privilege": {
+        "id": 1384492898,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 759100,
+          "name": "MAX",
+          "alia": [
+            "Max Schneider"
+          ]
+        }
+      ],
+      "al": {
+        "id": 36290028,
+        "name": "Awake",
+        "pic_str": "109951163029264241",
+        "pic": 109951163029264241
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 12,
+      "fee": 0,
+      "mv": 0,
+      "v": 129,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5773523,
+        "vd": -47800.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 240508,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9622509,
+        "vd": -50300.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3849030,
+        "vd": -46200.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Beautiful Creatures",
+      "id": 507585219,
+      "privilege": {
+        "id": 507585219,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 12178030,
+          "name": "Stories"
+        },
+        {
+          "id": 12338143,
+          "name": "Justin Dai"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 74995589,
+        "name": "Illenium - Let you go(Stories&Justin Dai Bootleg)",
+        "pic_str": "109951163760197083",
+        "pic": 109951163760197083
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 25,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5411152,
+        "vd": -45300.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 225396,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9018558,
+        "vd": -47800.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3607449,
+        "vd": -43600.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Illenium - Let you go（Stories&Justin Dai Bootleg",
+      "id": 1336485605,
+      "privilege": {
+        "id": 1336485605,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 130,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1044218,
+          "name": "Bahari"
+        }
+      ],
+      "al": {
+        "id": 75320139,
+        "name": "Crashing",
+        "pic_str": "109951163878804294",
+        "pic": 109951163878804294
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 10848705,
+      "v": 7,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5521493,
+        "vd": -1.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 230034,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9202460,
+        "vd": -1.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3681010,
+        "vd": 0.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Crashing",
+      "id": 1341919847,
+      "privilege": {
+        "id": 1341919847,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1026094,
+          "name": "Said The Sky"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 3098520,
+        "name": "In Your Wake (feat. Jeza)",
+        "pic_str": "109951163166368827",
+        "pic": 109951163166368827
+      },
+      "st": 1,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 15,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7885680,
+        "vd": -34000.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 456010,
+      "crbt": null,
+      "cf": "",
+      "dt": 328500,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 13142770,
+        "vd": -36500.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 5257134,
+        "vd": -32500.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "In Your Wake (feat. Jeza) (Original Mix)",
+      "id": 30394423,
+      "privilege": {
+        "id": 30394423,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 0,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1026094,
+          "name": "Said The Sky"
+        },
+        {
+          "id": 13579058,
+          "name": "1788-L"
+        },
+        {
+          "id": 62916,
+          "name": "Kerli"
+        }
+      ],
+      "al": {
+        "id": 38595173,
+        "name": "Sound of Where'd U Go",
+        "pic_str": "109951163293325376",
+        "pic": 109951163293325376
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 4,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4802395,
+        "vd": -36700.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 200045,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8003962,
+        "vd": -38900.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3201611,
+        "vd": -35900.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Sound of Where'd U Go",
+      "id": 557581494,
+      "privilege": {
+        "id": 557581494,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 758231,
+          "name": "Joni Fatora"
+        }
+      ],
+      "al": {
+        "id": 34497141,
+        "name": "Ashes",
+        "pic_str": "3388694840126687",
+        "pic": 3388694840126687
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 4,
+      "fee": 0,
+      "mv": 0,
+      "v": 5,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6006743,
+        "vd": -31700.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 250226,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10011210,
+        "vd": -33800.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4004510,
+        "vd": -30600.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Sleepwalker",
+      "id": 403711527,
+      "privilege": {
+        "id": 403711527,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1132925,
+          "name": "Ekali"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 901014,
+          "name": "Chloe Angelides"
+        }
+      ],
+      "al": {
+        "id": 83527817,
+        "name": "Hard To Say Goodbye (feat. Chloe Angelides)",
+        "pic_str": "109951164499220018",
+        "pic": 109951164499220018
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 10910451,
+      "v": 7,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4732177,
+        "vd": -66368.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7002,
+      "crbt": null,
+      "cf": "",
+      "dt": 197146,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 7886933,
+        "vd": -68865.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3154799,
+        "vd": -64943.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Hard To Say Goodbye (feat. Chloe Angelides)",
+      "id": 1404817539,
+      "privilege": {
+        "id": 1404817539,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 4,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 12935364,
+          "name": "Goldn"
+        }
+      ],
+      "al": {
+        "id": 80981667,
+        "name": "ASCEND",
+        "pic_str": "109951164297489345",
+        "pic": 109951164297489345
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 4,
+      "fee": 8,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6071319,
+        "vd": -67316.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 252943,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10118836,
+        "vd": -69832.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4047560,
+        "vd": -65753.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "That’s Why",
+      "id": 1384496793,
+      "privilege": {
+        "id": 1384496793,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1026094,
+          "name": "Said The Sky"
+        }
+      ],
+      "al": {
+        "id": 36290028,
+        "name": "Awake",
+        "pic_str": "109951163029264241",
+        "pic": 109951163029264241
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 5,
+      "fee": 0,
+      "mv": 0,
+      "v": 130,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4431247,
+        "vd": -3.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 95.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 184556,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 7385382,
+        "vd": -4.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 2954179,
+        "vd": -3.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Where'd U Go",
+      "id": 507585221,
+      "privilege": {
+        "id": 507585221,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 758231,
+          "name": "Joni Fatora"
+        }
+      ],
+      "al": {
+        "id": 34478347,
+        "name": "Fortress",
+        "pic_str": "3406287028001385",
+        "pic": 3406287028001385
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 6,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4890792,
+        "vd": -34900.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 203728,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8151292,
+        "vd": -37100.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3260542,
+        "vd": -33500.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Fortress",
+      "id": 403012334,
+      "privilege": {
+        "id": 403012334,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 33221,
+          "name": "Excision",
+          "alia": [
+            "Jeff Abel"
+          ]
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 12053320,
+          "name": "Shallows"
+        }
+      ],
+      "al": {
+        "id": 71780935,
+        "name": "Gold (Stupid Love)",
+        "pic_str": "109951163400328231",
+        "pic": 109951163400328231
+      },
+      "st": 1,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 5,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7103260,
+        "vd": -37000.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 743010,
+      "crbt": null,
+      "cf": "",
+      "dt": 295890,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 11838738,
+        "vd": -39400.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4735521,
+        "vd": -35800.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Gold (Stupid Love)",
+      "id": 865451337,
+      "privilege": {
+        "id": 865451337,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 5,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 3174647,
+        "name": "Operate (Illenium Remix)",
+        "pic_str": "7925279813980788",
+        "pic": 7925279813980788
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 7,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6361095,
+        "vd": -28000.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 265000,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10601709,
+        "vd": -30200.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4240788,
+        "vd": -26800.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Operate (Illenium Remix)",
+      "id": 32944426,
+      "privilege": {
+        "id": 32944426,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 37559,
+          "name": "Kaskade",
+          "tns": [
+            "卡斯科"
+          ]
+        },
+        {
+          "id": 1147178,
+          "name": "Ilsey"
+        }
+      ],
+      "al": {
+        "id": 3287453,
+        "name": "Disarm You (Illenium Remix)",
+        "pic_str": "3257852953753815",
+        "pic": 3257852953753815
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 9,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6231814,
+        "vd": -33700.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 259608,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10386328,
+        "vd": -36000.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4154557,
+        "vd": -32800.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Disarm You (Illenium Remix)",
+      "id": 34532906,
+      "privilege": {
+        "id": 34532906,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 427028,
+          "name": "Kill Paris"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 14149023,
+          "name": "Nina Sung"
+        }
+      ],
+      "al": {
+        "id": 35044508,
+        "name": "Only One (Kill Paris Remix)",
+        "pic_str": "18629025511032177",
+        "pic": 18629025511032177
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 0,
+      "fee": 0,
+      "mv": 0,
+      "v": 4,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5441872,
+        "vd": -2.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 226666,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9069758,
+        "vd": -2.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3627929,
+        "vd": -2.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Only One (Kill Paris Remix)",
+      "id": 446728208,
+      "privilege": {
+        "id": 446728208,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 908182,
+          "name": "King Deco"
+        },
+        {
+          "id": 248957,
+          "name": "William Black"
+        }
+      ],
+      "al": {
+        "id": 35012826,
+        "name": "Ashes (Remixes)",
+        "pic_str": "18818141511035757",
+        "pic": 18818141511035757
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 6,
+      "fee": 0,
+      "mv": 0,
+      "v": 12,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6481337,
+        "vd": -11900.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 270048,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10802199,
+        "vd": -14400.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4320906,
+        "vd": -11300.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Spirals (William Black Remix)",
+      "id": 446549369,
+      "privilege": {
+        "id": 446549369,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 31724757,
+          "name": "Kameron Alexander"
+        }
+      ],
+      "al": {
+        "id": 77773109,
+        "name": "Pray",
+        "pic_str": "109951163942502432",
+        "pic": 109951163942502432
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 10863583,
+      "v": 5,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7103260,
+        "vd": -3.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 295941,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 11838738,
+        "vd": -4.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4735521,
+        "vd": -3.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Pray",
+      "id": 1353374366,
+      "privilege": {
+        "id": 1353374366,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 34497141,
+        "name": "Ashes",
+        "pic_str": "3388694840126687",
+        "pic": 3388694840126687
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 5,
+      "fee": 0,
+      "mv": 0,
+      "v": 4,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 4898315,
+        "vd": -36700.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 204042,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8163830,
+        "vd": -38900.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3265558,
+        "vd": -35900.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "It's All on U",
+      "id": 403710537,
+      "privilege": {
+        "id": 403710537,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 32428618,
+          "name": "Oekiin"
+        }
+      ],
+      "al": {
+        "id": 80981667,
+        "name": "ASCEND",
+        "pic_str": "109951164297489345",
+        "pic": 109951164297489345
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 7,
+      "fee": 8,
+      "mv": 0,
+      "v": 7,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5727129,
+        "vd": -69837.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 238602,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9545187,
+        "vd": -72338.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3818101,
+        "vd": -68495.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "All Together",
+      "id": 1384496795,
+      "privilege": {
+        "id": 1384496795,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 34497141,
+        "name": "Ashes",
+        "pic_str": "3388694840126687",
+        "pic": 3388694840126687
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 9,
+      "fee": 1,
+      "mv": 0,
+      "v": 5,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5280121,
+        "vd": -27600.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 90.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 7002,
+      "crbt": null,
+      "cf": "",
+      "dt": 219954,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8800173,
+        "vd": -29700.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3520095,
+        "vd": -27200.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "I'll Be Your Reason",
+      "id": 403710539,
+      "privilege": {
+        "id": 403710539,
+        "fee": 1,
+        "payed": 0,
+        "st": 0,
+        "pl": 0,
+        "dl": 0,
+        "sp": 0,
+        "cp": 0,
+        "subp": 0,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 0,
+        "toast": false,
+        "flag": 1028,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 55454,
+          "name": "Dia Frampton"
+        }
+      ],
+      "al": {
+        "id": 36290028,
+        "name": "Awake",
+        "pic_str": "109951163029264241",
+        "pic": 109951163029264241
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 133,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7335227,
+        "vd": -41200.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 85.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 305571,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 12225350,
+        "vd": -43500.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4890166,
+        "vd": -40000.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Needed You",
+      "id": 507585222,
+      "privilege": {
+        "id": 507585222,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 999000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 66212,
+          "name": "Lana Del Rey",
+          "tns": [
+            "拉娜·德蕾"
+          ],
+          "alia": [
+            "Elizabeth Grant"
+          ]
+        }
+      ],
+      "al": {
+        "id": 3103250,
+        "name": "Flipside (Illenium Remix)",
+        "pic_str": "7730666255130354",
+        "pic": 7730666255130354
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 9,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7202315,
+        "vd": -36400.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 85.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 300000,
+      "h": null,
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4801558,
+        "vd": -35000.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Flipside (Illenium Remix)",
+      "id": 30780474,
+      "privilege": {
+        "id": 30780474,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 192000,
+        "dl": 192000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 192000,
+        "fl": 192000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 192000,
+        "downloadMaxbr": 192000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 38057,
+          "name": "Kill The Noise"
+        },
+        {
+          "id": 68192,
+          "name": "Mako",
+          "alia": [
+            "Мако"
+          ]
+        }
+      ],
+      "al": {
+        "id": 37545058,
+        "name": "Don't Give up on Me",
+        "pic_str": "109951163536537162",
+        "pic": 109951163536537162
+      },
+      "st": 1,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 16,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6702646,
+        "vd": -47399.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 85.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 1416512,
+      "crbt": null,
+      "cf": "",
+      "dt": 279200,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 11171048,
+        "vd": -49800.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4468445,
+        "vd": -46600.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Don't Give up on Me",
+      "id": 536097184,
+      "privilege": {
+        "id": 536097184,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 999000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 261,
+        "preSell": false,
+        "playMaxbr": 999000,
+        "downloadMaxbr": 999000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 33013223,
+          "name": "Chandler Leighton"
+        }
+      ],
+      "al": {
+        "id": 80981667,
+        "name": "ASCEND",
+        "pic_str": "109951164297489345",
+        "pic": 109951164297489345
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 17,
+      "fee": 8,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6504533,
+        "vd": -82377.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 85.0,
+      "rt": "",
+      "mst": 9,
+      "cp": 7003,
+      "crbt": null,
+      "cf": "",
+      "dt": 270994,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10840860,
+        "vd": -84890.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4336370,
+        "vd": -80849.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Lonely",
+      "id": 1384492900,
+      "privilege": {
+        "id": 1384492900,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 260,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1032300,
+          "name": "Electus"
+        },
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        }
+      ],
+      "al": {
+        "id": 34686452,
+        "name": "Without You (Electus Remix)",
+        "pic_str": "1401877334304253",
+        "pic": 1401877334304253
+      },
+      "st": 3,
+      "djId": 0,
+      "no": 1,
+      "fee": 8,
+      "mv": 0,
+      "v": 12,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7085705,
+        "vd": 3543.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 85.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 655010,
+      "crbt": null,
+      "cf": "",
+      "dt": 295183,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 11809479,
+        "vd": 1435.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4723817,
+        "vd": 4234.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Without You (Electus Remix)",
+      "id": 411907395,
+      "privilege": {
+        "id": 411907395,
+        "fee": 8,
+        "payed": 0,
+        "st": 0,
+        "pl": 128000,
+        "dl": 0,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 128000,
+        "toast": false,
+        "flag": 256,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 30360064,
+          "name": "Wonder Wonder"
+        }
+      ],
+      "al": {
+        "id": 3103252,
+        "name": "Shark (Illenium Remix)",
+        "pic_str": "7851612534313370",
+        "pic": 7851612534313370
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 7375350,
+        "vd": -33100.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 85.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 307000,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 12292222,
+        "vd": -35500.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4916914,
+        "vd": -32300.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Shark (Illenium Remix)",
+      "id": 30780483,
+      "privilege": {
+        "id": 30780483,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 905145,
+          "name": "Niykee Heaton"
+        }
+      ],
+      "al": {
+        "id": 3394588,
+        "name": "Infinity (Illenium Remix)",
+        "pic_str": "3386495815135841",
+        "pic": 3386495815135841
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 4,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6708914,
+        "vd": -37000.0
+      },
+      "cd": "01",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 80.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 279484,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 11181496,
+        "vd": -39100.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4472624,
+        "vd": -36300.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Infinity (Illenium Remix) [Lovestep]",
+      "id": 36587526,
+      "privilege": {
+        "id": 36587526,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 851397,
+          "name": "Galantis"
+        }
+      ],
+      "al": {
+        "id": 3287454,
+        "name": "Gold Dust (Illenium Remix)",
+        "pic_str": "3285340744446717",
+        "pic": 3285340744446717
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 7,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 6338394,
+        "vd": -40700.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 80.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 264045,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 10563961,
+        "vd": -42800.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 4225610,
+        "vd": -40200.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Gold Dust (Illenium Remix)",
+      "id": 34532921,
+      "privilege": {
+        "id": 34532921,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1116149,
+          "name": "EDEN",
+          "alia": [
+            "Jonathon Ng"
+          ]
+        }
+      ],
+      "al": {
+        "id": 36192429,
+        "name": "Leaving",
+        "pic_str": "109951163024862552",
+        "pic": 109951163024862552
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 8,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5638731,
+        "vd": -46100.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 80.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 234919,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 9397856,
+        "vd": -48500.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3759168,
+        "vd": -44800.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Leaving",
+      "id": 505851880,
+      "privilege": {
+        "id": 505851880,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    },
+    {
+      "rtUrls": [],
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM"
+        },
+        {
+          "id": 1112021,
+          "name": "Echos"
+        }
+      ],
+      "al": {
+        "id": 34432083,
+        "name": "Afterlife",
+        "pic_str": "3398590446156770",
+        "pic": 3398590446156770
+      },
+      "st": 0,
+      "djId": 0,
+      "no": 1,
+      "fee": 0,
+      "mv": 0,
+      "v": 2,
+      "a": null,
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 8741450,
+        "vd": -32800.0
+      },
+      "cd": "1",
+      "rtype": 0,
+      "rurl": null,
+      "pst": 0,
+      "t": 0,
+      "alia": [],
+      "pop": 80.0,
+      "rt": null,
+      "mst": 9,
+      "cp": 0,
+      "crbt": null,
+      "cf": "",
+      "dt": 364173,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 14569055,
+        "vd": -35000.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 5827647,
+        "vd": -31900.0
+      },
+      "rtUrl": null,
+      "ftype": 0,
+      "name": "Afterlife",
+      "id": 400581350,
+      "privilege": {
+        "id": 400581350,
+        "fee": 0,
+        "payed": 0,
+        "st": 0,
+        "pl": 320000,
+        "dl": 320000,
+        "sp": 7,
+        "cp": 1,
+        "subp": 1,
+        "cs": false,
+        "maxbr": 320000,
+        "fl": 320000,
+        "toast": false,
+        "flag": 128,
+        "preSell": false,
+        "playMaxbr": 320000,
+        "downloadMaxbr": 320000
+      }
+    }
+  ],
+  "more": true,
+  "code": 200
+}

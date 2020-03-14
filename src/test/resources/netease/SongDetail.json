@@ -1,0 +1,98 @@
+{
+  "songs": [
+    {
+      "name": "Good Things Fall Apart",
+      "id": 1365046574,
+      "pst": 0,
+      "t": 0,
+      "ar": [
+        {
+          "id": 1050518,
+          "name": "ILLENIUM",
+          "tns": [],
+          "alias": []
+        },
+        {
+          "id": 860113,
+          "name": "Jon Bellion",
+          "tns": [],
+          "alias": []
+        }
+      ],
+      "alia": [],
+      "pop": 100.0,
+      "st": 0,
+      "rt": "",
+      "fee": 8,
+      "v": 7,
+      "crbt": null,
+      "cf": "",
+      "al": {
+        "id": 79087093,
+        "name": "Good Things Fall Apart",
+        "picUrl": "https://p4.music.126.net/fIslqU_gYTJ1EhbJ7RJUSg==/109951164071804194.jpg",
+        "tns": [],
+        "pic_str": "109951164071804194",
+        "pic": 109951164071804194
+      },
+      "dt": 216711,
+      "h": {
+        "br": 320000,
+        "fid": 0,
+        "size": 8669562,
+        "vd": -108505.0
+      },
+      "m": {
+        "br": 192000,
+        "fid": 0,
+        "size": 5201755,
+        "vd": -106058.0
+      },
+      "l": {
+        "br": 128000,
+        "fid": 0,
+        "size": 3467851,
+        "vd": -104743.0
+      },
+      "a": null,
+      "cd": "01",
+      "no": 1,
+      "rtUrl": null,
+      "ftype": 0,
+      "rtUrls": [],
+      "djId": 0,
+      "copyright": 1,
+      "s_id": 0,
+      "mark": 270336,
+      "originCoverType": 0,
+      "mv": 10871605,
+      "rtype": 0,
+      "rurl": null,
+      "mst": 9,
+      "cp": 7003,
+      "publishTime": 1557676800000
+    }
+  ],
+  "privileges": [
+    {
+      "id": 1365046574,
+      "fee": 8,
+      "payed": 0,
+      "st": 0,
+      "pl": 128000,
+      "dl": 0,
+      "sp": 7,
+      "cp": 1,
+      "subp": 1,
+      "cs": false,
+      "maxbr": 320000,
+      "fl": 128000,
+      "toast": false,
+      "flag": 260,
+      "preSell": false,
+      "playMaxbr": 320000,
+      "downloadMaxbr": 320000
+    }
+  ],
+  "code": 200
+}
