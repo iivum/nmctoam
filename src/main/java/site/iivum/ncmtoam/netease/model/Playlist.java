@@ -32,13 +32,12 @@ public class Playlist {
 
     @JsonProperty("trackIds")
     public void setSongIds(List<Map<String, Object>> songIds) {
-        final List<Integer> list = Optional.ofNullable(songIds)
+        this.songIds = Optional.ofNullable(songIds)
                 .map(trackIds ->
                         trackIds.stream()
                                 .map(trackId -> trackId.getOrDefault("id", ""))
                                 .map(trackId -> ((Integer) trackId))
                                 .collect(Collectors.toList()))
                 .orElse(Collections.emptyList());
-        this.songIds = list;
     }
 }

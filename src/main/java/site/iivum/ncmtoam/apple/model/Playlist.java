@@ -1,9 +1,14 @@
 package site.iivum.ncmtoam.apple.model;
 
-/**
- * 2020/3/8
- *
- * @author lbh
- */
+import lombok.Builder;
+import lombok.Data;
+
+import java.util.List;
+
+@Builder
+@Data
 public class Playlist {
+    String name;
+    List<String> songs;
+    List<String> failed;
 }

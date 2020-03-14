@@ -1,0 +1,227 @@
+{
+  "results": {
+    "songs": {
+      "href": "/v1/catalog/cn/search?term=wow&types=songs",
+      "next": "/v1/catalog/cn/search?offset=5&term=wow&types=songs",
+      "data": [
+        {
+          "id": "1447204033",
+          "type": "songs",
+          "href": "/v1/catalog/cn/songs/1447204033",
+          "attributes": {
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/b9/b5/75/b9b575c3-ecfe-fcdb-1a6c-7726e28ee279/mzaf_6654386524259477044.plus.aac.p.m4a"
+              }
+            ],
+            "artwork": {
+              "width": 3000,
+              "height": 3000,
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/32/06/97/320697d8-9313-cba2-39ad-046fd67b80f7/00602577412790.rgb.jpg/{w}x{h}bb.jpeg",
+              "bgColor": "d6d8d7",
+              "textColor1": "171719",
+              "textColor2": "232829",
+              "textColor3": "3d3e3f",
+              "textColor4": "474b4c"
+            },
+            "artistName": "Post Malone",
+            "url": "https://music.apple.com/cn/album/wow/1447203905?i=1447204033",
+            "discNumber": 1,
+            "genreNames": [
+              "嘻哈/说唱",
+              "音乐"
+            ],
+            "durationInMillis": 149501,
+            "releaseDate": "2018-12-24",
+            "name": "Wow.",
+            "isrc": "USUM71822626",
+            "hasLyrics": true,
+            "albumName": "Wow. - Single",
+            "playParams": {
+              "id": "1447204033",
+              "kind": "song"
+            },
+            "trackNumber": 1,
+            "composerName": "Louis Bell, Austin Post, Adam Feeny & Billy Walsh",
+            "contentRating": "explicit"
+          }
+        },
+        {
+          "id": "1471469543",
+          "type": "songs",
+          "href": "/v1/catalog/cn/songs/1471469543",
+          "attributes": {
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ae/7a/12/ae7a12f4-d524-56b6-ca33-c998f6ffaaaf/mzaf_274348724894319531.plus.aac.p.m4a"
+              }
+            ],
+            "artwork": {
+              "width": 3000,
+              "height": 3000,
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/73/e9/7b/73e97bd5-afaf-3c5e-bb9a-d299e1508afa/cover.jpg/{w}x{h}bb.jpeg",
+              "bgColor": "151e27",
+              "textColor1": "d4eaeb",
+              "textColor2": "dfc0a4",
+              "textColor3": "aec1c4",
+              "textColor4": "b69f8b"
+            },
+            "artistName": "MAMAMOO",
+            "url": "https://music.apple.com/cn/album/wow/1471469542?i=1471469543",
+            "discNumber": 1,
+            "genreNames": [
+              "TV Soundtrack",
+              "音乐",
+              "原声音乐",
+              "国际流行",
+              "K-Pop"
+            ],
+            "durationInMillis": 200938,
+            "releaseDate": "2019-07-04",
+            "name": "Wow",
+            "isrc": "KRA491900447",
+            "hasLyrics": true,
+            "albumName": "Search: WWW (Original Television Soundtrack), Pt. 5 - Single",
+            "playParams": {
+              "id": "1471469543",
+              "kind": "song"
+            },
+            "trackNumber": 1
+          }
+        },
+        {
+          "id": "1477880777",
+          "type": "songs",
+          "href": "/v1/catalog/cn/songs/1477880777",
+          "attributes": {
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1c/4a/52/1c4a5252-e572-4cfd-bde3-cf79eb3c2482/mzaf_8616532317038562671.plus.aac.p.m4a"
+              }
+            ],
+            "artwork": {
+              "width": 3000,
+              "height": 3000,
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/be/41/46/be4146f9-d1c1-9756-8b27-fde6e5b91ac4/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+              "bgColor": "252420",
+              "textColor1": "58d6d0",
+              "textColor2": "7cc3ca",
+              "textColor3": "4eb2ad",
+              "textColor4": "6aa3a8"
+            },
+            "artistName": "Post Malone",
+            "url": "https://music.apple.com/cn/album/wow/1477880265?i=1477880777",
+            "discNumber": 1,
+            "genreNames": [
+              "嘻哈/说唱",
+              "音乐"
+            ],
+            "durationInMillis": 149507,
+            "releaseDate": "2018-12-24",
+            "name": "Wow.",
+            "isrc": "USUM71822626",
+            "hasLyrics": true,
+            "albumName": "Hollywood's Bleeding",
+            "playParams": {
+              "id": "1477880777",
+              "kind": "song"
+            },
+            "trackNumber": 17,
+            "composerName": "Louis Bell, Austin Post, Adam Feeny & Billy Walsh",
+            "contentRating": "explicit"
+          }
+        },
+        {
+          "id": "715998433",
+          "type": "songs",
+          "href": "/v1/catalog/cn/songs/715998433",
+          "attributes": {
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/88/f4/89/88f4897d-090b-b40f-2dac-9185d508d06b/mzaf_4040350946463468715.plus.aac.p.m4a"
+              }
+            ],
+            "artwork": {
+              "width": 1500,
+              "height": 1500,
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/33/e2/2f/33e22f3d-f0ef-35cd-af49-6258cecb27b9/00804147165956.jpg/{w}x{h}bb.jpeg",
+              "bgColor": "fdfffe",
+              "textColor1": "1e202b",
+              "textColor2": "24242b",
+              "textColor3": "4b4c55",
+              "textColor4": "505055"
+            },
+            "artistName": "Jaci Velasquez",
+            "url": "https://music.apple.com/cn/album/imagine-me-without-you-acoustic-version/715997906?i=715998433",
+            "discNumber": 1,
+            "genreNames": [
+              "基督教与福音",
+              "音乐"
+            ],
+            "durationInMillis": 247907,
+            "releaseDate": "2012-02-07",
+            "name": "Imagine Me Without You (Acoustic Version)",
+            "isrc": "USP1R1100705",
+            "hasLyrics": true,
+            "albumName": "Acoustic Favorites EP",
+            "playParams": {
+              "id": "715998433",
+              "kind": "song"
+            },
+            "trackNumber": 3,
+            "composerName": "Rudy Perez & Mark Portmann"
+          }
+        },
+        {
+          "id": "1458562823",
+          "type": "songs",
+          "href": "/v1/catalog/cn/songs/1458562823",
+          "attributes": {
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/06/8b/7e/068b7e8d-e7d8-86ee-1ed6-3ef8bca7724c/mzaf_8529886369822296026.plus.aac.p.m4a"
+              }
+            ],
+            "artwork": {
+              "width": 3000,
+              "height": 3000,
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/36/b8/b8/36b8b87f-af64-25e4-86a0-381c32192be2/886447619698.jpg/{w}x{h}bb.jpeg",
+              "bgColor": "fe08e2",
+              "textColor1": "000001",
+              "textColor2": "21171b",
+              "textColor3": "33022e",
+              "textColor4": "4d1443"
+            },
+            "artistName": "Zara Larsson",
+            "url": "https://music.apple.com/cn/album/wow/1458562818?i=1458562823",
+            "discNumber": 1,
+            "genreNames": [
+              "国际流行",
+              "音乐"
+            ],
+            "durationInMillis": 179675,
+            "releaseDate": "2019-04-17",
+            "name": "WOW",
+            "isrc": "USSM11901898",
+            "hasLyrics": true,
+            "albumName": "WOW - Single",
+            "playParams": {
+              "id": "1458562823",
+              "kind": "song"
+            },
+            "trackNumber": 1,
+            "composerName": "Thomas Eriksen, Marshmello, Joakim Haukaas, Madison Love & Brittany Amaradio",
+            "contentRating": "explicit"
+          }
+        }
+      ]
+    }
+  },
+  "meta": {
+    "results": {
+      "order": [
+        "songs"
+      ]
+    }
+  }
+}

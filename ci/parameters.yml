@@ -1,0 +1,5 @@
+#根据环境自定义的参数
+.custom-variables:
+  RUN_ARG: |
+    -p 8081:8080  -d
+  BUILD_ARG: --cache-from $CI_REGISTRY_IMAGE:latest --build-arg  JAR_FILE=./build/libs/${CI_PROJECT_NAME}-1.0-SNAPSHOT.jar

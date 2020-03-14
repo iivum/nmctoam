@@ -1,0 +1,59 @@
+stages:
+  - build
+  - test
+  - publish-image
+  - deploy
+include:
+  local: ci/parameters.yml
+
+variables:
+  BUILD_DIR: build
+  GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+  DOCKER_DRIVER: overlay2
+  extends: .custom-variables
+
+build:
+  tags:
+    - gradle
+  stage: build
+  script:
+    - gradle --build-cache assemble
+  artifacts:
+    paths:
+      - build/libs/*.jar
+    expire_in: 1 days
+
+#test:
+#  tags:
+#    - gradle
+#  stage: test
+#  script: gradle check
+#  artifacts:
+#    reports:
+#      junit:
+#        - build/test-results/**/*.xml
+#        - "*/build/test-results/**/*.xml"
+
+publish-image:
+  stage: publish-image
+  tags:
+    - gradle
+  script:
+    - docker-machine start || true
+    - eval $(docker-machine env default)
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $CI_REGISTRY_IMAGE:latest || true
+    - docker build $BUILD_ARG -t $CI_REGISTRY_IMAGE .
+    - docker push $CI_REGISTRY_IMAGE
+
+depoly:
+  stage: deploy
+  tags:
+    - deploy
+  script:
+    - docker-machine start || true
+    - eval $(docker-machine env default)
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker stop $CI_PROJECT_NAME && docker rm $CI_PROJECT_NAME || true
+    - docker pull $CI_REGISTRY_IMAGE
+    - docker run $RUN_ARG --name=$CI_PROJECT_NAME $CI_REGISTRY_IMAGE

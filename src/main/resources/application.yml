@@ -1,0 +1,16 @@
+apple-music:
+  develop-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldZNUc4Nk4y\
+    MjIifQ.eyJpYXQiOjE1NzI5MDIzNjQsImV4cCI6MTU4ODYyNzE2NCwiaXNzIjoiSloyVE\
+    1BR0syMyJ9.hryC3bdoqNOm_Yo9j8lQjnBxYYLUCuBY3cRsIyoPmks4DTv2IwvyGzAc8V\
+    8AJ3LtAz2G6m_bCu8JgxbvgJbTvg
+logging:
+  level:
+    site.iivum.ncmtoam.apple.AppleMusicApi: debug
+server:
+  #  ssl:
+  #    key-store: classpath:www.iivum.site.pfx
+  #    key-store-type: PKCS12
+  #    key-alias: iivum
+  #    key-store-password: Bfp463YW
+  #    enabled: true
+  port: 8080
