@@ -21,12 +21,16 @@ public class Result {
         if (!songs.isEmpty()) {
             this.songs = Optional.ofNullable(((List<Map<String, Object>>) songs.get("data")))
                     .map(data -> data.stream()
-                            .map(datum -> ((Map<String, Object>) datum.get("attributes")))
-                            .map(datum -> Song
-                                    .builder().name(((String) datum.get("name")))
-                                    .artistName(((String) datum.get("artistName")))
-                                    .albumName(((String) datum.get("albumName")))
-                                    .build())
+                            .map(datum -> {
+                                Map<String, Object> attributes = (Map<String, Object>) datum.get("attributes");
+                                return Song
+                                        .builder().name(((String) attributes.get("name")))
+                                        .artistName(((String) attributes.get("artistName")))
+                                        .albumName(((String) attributes.get("albumName")))
+                                        .url(((String) attributes.get("url")))
+                                        .id((Long.parseLong((String) datum.get("id"))))
+                                        .build();
+                            })
                             .collect(Collectors.toList())).get();
 
         }

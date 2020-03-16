@@ -13,10 +13,12 @@ public class NetEaseMusicToAppleMusicController {
     private final NetEaseMusicToAppleMusicService netEaseMusicToAppleMusicService;
 
     @GetMapping("/genPlaylist")
-    public Playlist genPlaylist(@RequestParam("id") long id, @RequestParam(required = false, name = "name") String name) throws Exception {
+    public Playlist genPlaylist(@RequestParam("id") long id,
+                                @RequestParam(required = false, name = "name") String name,
+                                @RequestParam(name = "limit", required = false) Integer limit) throws Exception {
         if (name == null) {
             name = "我喜欢的音乐";
         }
-        return netEaseMusicToAppleMusicService.genPlaylist(id, name);
+        return netEaseMusicToAppleMusicService.genPlaylist(id, name, limit);
     }
 }

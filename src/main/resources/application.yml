@@ -7,10 +7,20 @@ logging:
   level:
     site.iivum.ncmtoam.apple.AppleMusicApi: debug
 server:
-  #  ssl:
-  #    key-store: classpath:www.iivum.site.pfx
-  #    key-store-type: PKCS12
-  #    key-alias: iivum
-  #    key-store-password: Bfp463YW
-  #    enabled: true
+  ssl:
+    key-store-type: PKCS12
+    enabled: true
+    key-store: classpath:www.iivum.site.pfx
+    key-store-password: TDxXcIPx
+    protocol: TLS
   port: 8080
+  tomcat:
+    connection-timeout: 5m
+spring:
+  mvc:
+    async:
+      request-timeout: 5m
+  redis:
+    host: www.iivum.site
+  cache:
+    type: redis

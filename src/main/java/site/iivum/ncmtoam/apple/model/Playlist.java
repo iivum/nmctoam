@@ -9,6 +9,7 @@ import java.util.List;
 @Data
 public class Playlist {
     String name;
+    List<PlaylistItem> items;
     List<String> songs;
     List<String> failed;
 }
