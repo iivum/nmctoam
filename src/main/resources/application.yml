@@ -24,3 +24,8 @@ spring:
     host: www.iivum.site
   cache:
     type: redis
+feign:
+  httpclient:
+    connection-timeout: 500000
+    time-to-live-unit: seconds
+

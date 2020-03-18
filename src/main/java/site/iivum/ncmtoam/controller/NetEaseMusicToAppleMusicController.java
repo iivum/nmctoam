@@ -2,6 +2,7 @@ package site.iivum.ncmtoam.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import site.iivum.ncmtoam.apple.model.Playlist;
@@ -20,5 +21,12 @@ public class NetEaseMusicToAppleMusicController {
             name = "我喜欢的音乐";
         }
         return netEaseMusicToAppleMusicService.genPlaylist(id, name, limit);
+    }
+
+    @GetMapping("/syncPlaylist")
+    public String syncPlaylist(@RequestParam("id") long id,
+                               @RequestParam("playlistId") String playlistId,
+                               @RequestHeader("music-user-token") String token) throws Exception {
+        return netEaseMusicToAppleMusicService.syncPlaylist(id, playlistId, token);
     }
 }

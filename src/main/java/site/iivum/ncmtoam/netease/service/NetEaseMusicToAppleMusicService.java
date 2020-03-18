@@ -12,4 +12,6 @@ public interface NetEaseMusicToAppleMusicService {
                                               List<site.iivum.ncmtoam.apple.model.Song> appleMusicSong);
 
     Playlist genPlaylist(long id, String name, Integer limit) throws Exception;
+
+    String syncPlaylist(long id, String playlistId, String token) throws Exception;
 }

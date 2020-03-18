@@ -8,9 +8,11 @@ import site.iivum.ncmtoam.apple.AppleMusicApi;
 import site.iivum.ncmtoam.apple.model.ResponseRoot;
 import site.iivum.ncmtoam.apple.model.Result;
 import site.iivum.ncmtoam.apple.model.Song;
+import site.iivum.ncmtoam.apple.model.Track;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Service
@@ -29,5 +31,12 @@ public class AppleMusicServiceImpl implements AppleMusicService {
         }
         return Optional.ofNullable(searchResult.getBody())
                 .map(ResponseRoot::getResults).map(Result::getSongs).orElse(Collections.emptyList());
+    }
+
+    @Override
+    public void addTracks(Map<String, List<Track>> tracks,
+                          String id,
+                          String token) {
+        appleMusicApi.addTracksToPlaylist(tracks, id, token);
     }
 }

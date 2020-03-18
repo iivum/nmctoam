@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import site.iivum.ncmtoam.apple.model.PlaylistItem;
+import site.iivum.ncmtoam.apple.model.Track;
 import site.iivum.ncmtoam.apple.service.AppleMusicService;
 import site.iivum.ncmtoam.netease.api.NCMAPI;
 import site.iivum.ncmtoam.netease.handler.ResultHandler;
@@ -15,6 +16,7 @@ import site.iivum.ncmtoam.netease.model.Song;
 import site.iivum.ncmtoam.netease.service.NetEaseMusicToAppleMusicService;
 
 import java.net.URLEncoder;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
@@ -32,6 +34,7 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
     public static final String CHINESE_RIGHT_BRACKET = "）";
     public static final String LEFT_SQUARE_BRACKET = "[";
     public static final String RIGHT_SQUARE_BRACKET = "]";
+    private static final String TRACK_TYPES = "songs";
     private static final ForkJoinPool requestThreadPool = new ForkJoinPool(20);
     private final AppleMusicService appleMusicService;
 
@@ -91,6 +94,18 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
                         .map(PlaylistItem::getSongName)
                         .collect(Collectors.toList()))
                 .build();
+    }
+
+    @Override
+    public String syncPlaylist(long id, String playlistId, String token) throws Exception {
+        final site.iivum.ncmtoam.apple.model.Playlist playlist = genPlaylist(id, "anyName", null);
+        final List<Track> tracks = playlist.getItems().stream()
+                .map(item -> Track.builder().id(item.id).types(TRACK_TYPES).build())
+                .collect(Collectors.toList());
+        final HashMap<String, List<Track>> body = new HashMap<>();
+        body.put("data", tracks);
+        appleMusicService.addTracks(body, playlistId, token);
+        return String.join("\n", playlist.getFailed());
     }
 
     @SneakyThrows

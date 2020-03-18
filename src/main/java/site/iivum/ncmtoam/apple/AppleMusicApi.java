@@ -2,11 +2,12 @@ package site.iivum.ncmtoam.apple;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import site.iivum.ncmtoam.apple.model.ResponseRoot;
+import site.iivum.ncmtoam.apple.model.Track;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * 2020/3/8
@@ -23,4 +24,9 @@ import site.iivum.ncmtoam.apple.model.ResponseRoot;
 public interface AppleMusicApi {
     @GetMapping(path = "/catalog/cn/search")
     ResponseEntity<ResponseRoot> search(@RequestParam("term") String term, @RequestParam("types") String types);
+
+    @PostMapping(path = "/me/library/playlists/{id}/tracks")
+    ResponseEntity<?> addTracksToPlaylist(@RequestBody Map<String, List<Track>> tracks,
+                                          @PathVariable("id") String id,
+                                          @RequestHeader("music-user-token") String token);
 }
