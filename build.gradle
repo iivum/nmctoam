@@ -27,7 +27,7 @@ repositories {
 
 ext {
     set('springCloudVersion', "Hoxton.SR1")
-    set('dockerRegistry', 'www.iivum.site:5000')
+    set('dockerRegistry', 'iivum')
 }
 
 dependencies {
