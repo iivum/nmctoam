@@ -1,8 +1,7 @@
 apple-music:
-  develop-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldZNUc4Nk4y\
-    MjIifQ.eyJpYXQiOjE1NzI5MDIzNjQsImV4cCI6MTU4ODYyNzE2NCwiaXNzIjoiSloyVE\
-    1BR0syMyJ9.hryC3bdoqNOm_Yo9j8lQjnBxYYLUCuBY3cRsIyoPmks4DTv2IwvyGzAc8V\
-    8AJ3LtAz2G6m_bCu8JgxbvgJbTvg
+  develop-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpYXQiOjE1ODc0OTYxNDksImV4cCI6MTU5Mzc\
+    xNjk0OSwiaXNzIjoiQU1QV2ViUGxheSJ9.Hqatp-1xg8JMDxopNMmHPw_KFloBN9YWqyev4gba9ayik5uBP6FQeiqH-YiIJk4JUKlmuetbMVZSnNadJ1w\
+    3VA
 logging:
   level:
     site.iivum.ncmtoam.apple.AppleMusicApi: debug
