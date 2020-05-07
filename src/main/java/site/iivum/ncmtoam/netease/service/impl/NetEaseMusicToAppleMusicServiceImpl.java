@@ -70,7 +70,7 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
         final String aAlbumName = appleMusicSong.getAlbumName();
         final String aArtiestName = appleMusicSong.getArtistName();
         final int arSum = neteaseSong.getAr()
-                .stream().map(Artist::getName).mapToInt(an -> aArtiestName.equalsIgnoreCase(an) ? 1 : 0).sum();
+                .stream().map(Artist::getName).mapToInt(an -> levenshteinDistance.apply(aArtiestName, an)).sum();
         return levenshteinDistance.apply(nSongName.toLowerCase(), aSongName.toLowerCase()) +
                 levenshteinDistance.apply(nAlbumName.toLowerCase(), aAlbumName.toLowerCase()) +
                 arSum;
