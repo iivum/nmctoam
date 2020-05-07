@@ -56,7 +56,7 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
 
         if (!CollectionUtils.isEmpty(appleMusicSong)) {
             return appleMusicSong.stream()
-                    .max(Comparator.comparingInt(trackers -> totalLevenshteinDistance(neteaseSong, trackers)))
+                    .min(Comparator.comparingInt(trackers -> totalLevenshteinDistance(neteaseSong, trackers)))
                     .orElse(null);
         }
         return null;
