@@ -56,35 +56,24 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
 
         if (!CollectionUtils.isEmpty(appleMusicSong)) {
             return appleMusicSong.stream()
-                    .sorted()
                     .max(Comparator.comparingInt(trackers -> totalLevenshteinDistance(neteaseSong, trackers)))
                     .orElse(null);
-//            String neteaseAlbumName = neteaseSong.getAlbumName();
-//            String neteaseSongName = neteaseSong.getName();
-//            List<String> neteaseArtists = neteaseSong.getAr().stream().map(Artist::getName).collect(Collectors.toList());
-//            for (site.iivum.ncmtoam.apple.model.Song song : appleMusicSong) {
-//                if (neteaseAlbumName.equalsIgnoreCase(song.getAlbumName()) ||
-//                        neteaseSongName.equalsIgnoreCase(song.getName()) ||
-//                        neteaseArtists.stream().anyMatch(artistName -> artistName.equalsIgnoreCase(song.getArtistName()))) {
-//                    return song;
-//                }
-//            }
-
         }
-
         return null;
     }
 
     private int totalLevenshteinDistance(Song neteaseSong, site.iivum.ncmtoam.apple.model.Song appleMusicSong) {
         final LevenshteinDistance levenshteinDistance = LevenshteinDistance.getDefaultInstance();
         final String nSongName = neteaseSong.getName();
-        final String nAlbumName = neteaseSong.getAlbumName();
         final String aSongName = appleMusicSong.getName();
+        final String nAlbumName = neteaseSong.getAlbumName();
         final String aAlbumName = appleMusicSong.getAlbumName();
         final String aArtiestName = appleMusicSong.getArtistName();
         final int arSum = neteaseSong.getAr()
-                .stream().map(Artist::getName).mapToInt(an -> levenshteinDistance.apply(aArtiestName, an)).sum();
-        return levenshteinDistance.apply(nSongName, aSongName) + levenshteinDistance.apply(nAlbumName, aAlbumName) + arSum;
+                .stream().map(Artist::getName).mapToInt(an -> aArtiestName.equalsIgnoreCase(an) ? 1 : 0).sum();
+        return levenshteinDistance.apply(nSongName.toLowerCase(), aSongName.toLowerCase()) +
+                levenshteinDistance.apply(nAlbumName.toLowerCase(), aAlbumName.toLowerCase()) +
+                arSum;
     }
 
     @Override

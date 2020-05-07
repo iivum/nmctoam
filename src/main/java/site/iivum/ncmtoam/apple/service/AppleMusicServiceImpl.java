@@ -1,6 +1,8 @@
 package site.iivum.ncmtoam.apple.service;
 
+import feign.FeignException;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -16,6 +18,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @Service
+@Slf4j
 @RequiredArgsConstructor
 public class AppleMusicServiceImpl implements AppleMusicService {
     public static final String SONG_TYPES = "songs";
@@ -37,6 +40,10 @@ public class AppleMusicServiceImpl implements AppleMusicService {
     public void addTracks(Map<String, List<Track>> tracks,
                           String id,
                           String token) {
-        appleMusicApi.addTracksToPlaylist(tracks, id, token);
+        try {
+            appleMusicApi.addTracksToPlaylist(tracks, id, token);
+        } catch (FeignException.GatewayTimeout e) {
+            log.warn("", e);
+        }
     }
 }
