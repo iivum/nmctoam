@@ -19,13 +19,13 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class AppleMusicServiceImpl implements AppleMusicService {
     public static final String SONG_TYPES = "songs";
-
+    public static final int DEFAULT_LIMIT = 20;
     private final AppleMusicApi appleMusicApi;
 
     @Override
     @Cacheable(cacheNames = "appleMusic", key = "#term")
     public List<Song> search(String term) {
-        ResponseEntity<ResponseRoot> searchResult = appleMusicApi.search(term, SONG_TYPES);
+        ResponseEntity<ResponseRoot> searchResult = appleMusicApi.search(term, SONG_TYPES, DEFAULT_LIMIT);
         if (!searchResult.getStatusCode().is2xxSuccessful()) {
             throw new RuntimeException("无法请求apple music");
         }

@@ -22,7 +22,9 @@ import java.util.Map;
                 "k5uBP6FQeiqH-YiIJk4JUKlmuetbMVZSnNadJ1w3VA")
 public interface AppleMusicApi {
     @GetMapping(path = "/catalog/cn/search")
-    ResponseEntity<ResponseRoot> search(@RequestParam("term") String term, @RequestParam("types") String types);
+    ResponseEntity<ResponseRoot> search(@RequestParam("term") String term,
+                                        @RequestParam("types") String types,
+                                        @RequestParam("limit") int limit);
 
     @PostMapping(path = "/me/library/playlists/{id}/tracks")
     ResponseEntity<?> addTracksToPlaylist(@RequestBody Map<String, List<Track>> tracks,

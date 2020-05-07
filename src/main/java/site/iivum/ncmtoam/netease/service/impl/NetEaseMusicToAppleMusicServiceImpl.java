@@ -3,6 +3,7 @@ package site.iivum.ncmtoam.netease.service.impl;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.text.similarity.LevenshteinDistance;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import site.iivum.ncmtoam.apple.model.PlaylistItem;
@@ -16,6 +17,7 @@ import site.iivum.ncmtoam.netease.model.Song;
 import site.iivum.ncmtoam.netease.service.NetEaseMusicToAppleMusicService;
 
 import java.net.URLEncoder;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
@@ -51,19 +53,38 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
     @Override
     public site.iivum.ncmtoam.apple.model.Song match(Song neteaseSong,
                                                      List<site.iivum.ncmtoam.apple.model.Song> appleMusicSong) {
+
         if (!CollectionUtils.isEmpty(appleMusicSong)) {
-            String neteaseAlbumName = neteaseSong.getAlbumName();
-            String neteaseSongName = neteaseSong.getName();
-            List<String> neteaseArtists = neteaseSong.getAr().stream().map(Artist::getName).collect(Collectors.toList());
-            for (site.iivum.ncmtoam.apple.model.Song song : appleMusicSong) {
-                if (neteaseAlbumName.equalsIgnoreCase(song.getAlbumName()) ||
-                        neteaseSongName.equalsIgnoreCase(song.getName()) ||
-                        neteaseArtists.stream().anyMatch(artistName -> artistName.equalsIgnoreCase(song.getArtistName()))) {
-                    return song;
-                }
-            }
+            return appleMusicSong.stream()
+                    .sorted()
+                    .max(Comparator.comparingInt(trackers -> totalLevenshteinDistance(neteaseSong, trackers)))
+                    .orElse(null);
+//            String neteaseAlbumName = neteaseSong.getAlbumName();
+//            String neteaseSongName = neteaseSong.getName();
+//            List<String> neteaseArtists = neteaseSong.getAr().stream().map(Artist::getName).collect(Collectors.toList());
+//            for (site.iivum.ncmtoam.apple.model.Song song : appleMusicSong) {
+//                if (neteaseAlbumName.equalsIgnoreCase(song.getAlbumName()) ||
+//                        neteaseSongName.equalsIgnoreCase(song.getName()) ||
+//                        neteaseArtists.stream().anyMatch(artistName -> artistName.equalsIgnoreCase(song.getArtistName()))) {
+//                    return song;
+//                }
+//            }
+
         }
+
         return null;
+    }
+
+    private int totalLevenshteinDistance(Song neteaseSong, site.iivum.ncmtoam.apple.model.Song appleMusicSong) {
+        final LevenshteinDistance levenshteinDistance = LevenshteinDistance.getDefaultInstance();
+        final String nSongName = neteaseSong.getName();
+        final String nAlbumName = neteaseSong.getAlbumName();
+        final String aSongName = appleMusicSong.getName();
+        final String aAlbumName = appleMusicSong.getAlbumName();
+        final String aArtiestName = appleMusicSong.getArtistName();
+        final int arSum = neteaseSong.getAr()
+                .stream().map(Artist::getName).mapToInt(an -> levenshteinDistance.apply(aArtiestName, an)).sum();
+        return levenshteinDistance.apply(nSongName, aSongName) + levenshteinDistance.apply(nAlbumName, aAlbumName) + arSum;
     }
 
     @Override
@@ -73,7 +94,9 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
         List<PlaylistItem> playlistItemList = songs.stream()
                 .map(song ->
                         CompletableFuture.supplyAsync(() -> normalizedSong(song), requestThreadPool))
-                .collect(Collectors.toList()).stream().map(CompletableFuture::join)
+                .collect(Collectors.toList())
+                .stream()
+                .map(CompletableFuture::join)
                 .collect(Collectors.toList());
 
         return site.iivum.ncmtoam.apple.model.Playlist
