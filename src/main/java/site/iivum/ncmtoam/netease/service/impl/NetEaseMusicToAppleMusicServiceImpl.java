@@ -22,7 +22,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
 @Service
@@ -37,7 +38,8 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
     public static final String LEFT_SQUARE_BRACKET = "[";
     public static final String RIGHT_SQUARE_BRACKET = "]";
     private static final String TRACK_TYPES = "songs";
-    private static final ForkJoinPool requestThreadPool = new ForkJoinPool(20);
+    private static final ExecutorService requestThreadPool =
+            Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() >> 1);
     private final AppleMusicService appleMusicService;
 
     @Override
@@ -78,7 +80,6 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
 
     @Override
     public site.iivum.ncmtoam.apple.model.Playlist genPlaylist(long id, String name, Integer limit) throws Exception {
-//        long id = resolveUrl(url);
         List<Song> songs = getNetEaseSongInfosByPlaylistId(id, limit);
         List<PlaylistItem> playlistItemList = songs.stream()
                 .map(song ->

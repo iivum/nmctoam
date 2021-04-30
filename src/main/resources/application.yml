@@ -9,18 +9,20 @@ server:
   ssl:
     key-store-type: PKCS12
     enabled: true
-    key-store: classpath:www.iivum.site.pfx
-    key-store-password: TDxXcIPx
+    key-store: ${PFX_PATH}
+    key-store-password: ${PFX_PASSWORD}
     protocol: TLS
   port: 8080
   tomcat:
     connection-timeout: 5m
+    accesslog:
+      enabled:
 spring:
   mvc:
     async:
       request-timeout: 5m
   redis:
-    host: www.iivum.site
+    host: localhost
   cache:
     type: redis
 feign:

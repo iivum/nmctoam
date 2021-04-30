@@ -9,6 +9,8 @@ group = 'site.iivum'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+
+
 configurations {
     developmentOnly
     runtimeClasspath {
@@ -21,7 +23,7 @@ configurations {
 
 repositories {
     mavenLocal()
-    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
     mavenCentral()
 }
 
@@ -41,9 +43,11 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
     implementation 'org.apache.commons:commons-text:1.8'
     compileOnly 'org.projectlombok:lombok'
+    testCompileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
@@ -60,8 +64,9 @@ test {
 }
 docker {
     name "${dockerRegistry}/${rootProject.name}"
-    tag 'latest', "${dockerRegistry}/${rootProject.name}:latest"
-    tag 'release', "${dockerRegistry}/${rootProject.name}:${version}"
+
+    tag 'latest', "${dockerRegistry}/library/${rootProject.name}:latest"
+    tag 'release', "${dockerRegistry}/library/${rootProject.name}:${version}"
     dockerfile file('Dockerfile')
     files tasks.bootJar.outputs
     buildArgs(['JAR_FILE': bootJar.archiveFileName.get()])
