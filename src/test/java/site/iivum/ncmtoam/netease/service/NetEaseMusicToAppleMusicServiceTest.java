@@ -18,8 +18,8 @@ class NetEaseMusicToAppleMusicServiceTest {
     @org.junit.jupiter.api.Test
     void syncPlaylist() throws Exception {
         log.info(service.syncPlaylist(466675576, "p.eoGxxMoTQ3JKbN",
-                "Ah1Dy1O+q6/1/YoWV6o3CJrAfOlPzKtEQhY+fN7QwwPtRw952eb2SN2W5H3mlHMIYRHJ6JYrkIvBiq9Z1cADolzUuHjzjQe/mffN" +
-                        "yxrpvO2CoJMlSMHqNFbB8JMyuv2RPAJx+Ekh3XLazLspMsvIoY9YOEoiPRj1VSrtTdA+VHKfmzxE/iOqKc98eZesHkMh" +
-                        "9I/fDcoRhx0Jon94z+KoRcVxZ1XuQBUY++f8tGndFjr6/8Pssg=="));
+                "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpYXQiOjE2NDM0MDg4NzgsImV4cCI6MTY0OTYyOTY3OCwiaXNzIjoiQU1QV2ViUGxheSJ9.lhOg-whQXp_7UB9Q8EVyRqmR2sW6DcAHDYKGo9aEY4tII_2WD7t9Pa96QMUWqy1cqsehDDjQT65L6xm3DO7orQ", true));
     }
+
+
 }

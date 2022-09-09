@@ -17,9 +17,7 @@ import java.util.Map;
 @FeignClient(name = "appleMusicApi", url = "https://api.music.apple.com", decode404 = true)
 @RestController
 @RequestMapping(value = "/v1",
-        headers = "Authorization=Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpYXQiOjE1ODc" +
-                "0OTYxNDksImV4cCI6MTU5MzcxNjk0OSwiaXNzIjoiQU1QV2ViUGxheSJ9.Hqatp-1xg8JMDxopNMmHPw_KFloBN9YWqyev4gba9ayi" +
-                "k5uBP6FQeiqH-YiIJk4JUKlmuetbMVZSnNadJ1w3VA")
+        headers = "Authorization=Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlEzOE1TVTZEWUwifQ.eyJpYXQiOjE2NDg5MDczOTUsImV4cCI6MTY2NDQ1OTM5NSwiaXNzIjoiQkxISDVRN0xZWiJ9.ADpAb2cAeAGvQ3oHCzPrp-8Vz-Na2NIlrXttAm7BcfLxpPLD27gSO8dtQkjnS8miyrS0-O5ghYbGd8aPDR4YFA")
 public interface AppleMusicApi {
     @GetMapping(path = "/catalog/cn/search")
     ResponseEntity<ResponseRoot> search(@RequestParam("term") String term,

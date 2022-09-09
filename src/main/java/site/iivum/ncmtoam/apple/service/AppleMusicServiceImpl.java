@@ -1,6 +1,5 @@
 package site.iivum.ncmtoam.apple.service;
 
-import feign.FeignException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
@@ -12,16 +11,14 @@ import site.iivum.ncmtoam.apple.model.Result;
 import site.iivum.ncmtoam.apple.model.Song;
 import site.iivum.ncmtoam.apple.model.Track;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @Service
 @Slf4j
 @RequiredArgsConstructor
 public class AppleMusicServiceImpl implements AppleMusicService {
-    public static final String SONG_TYPES = "songs";
+    public static final String SONG_TYPES = "songs,artists";
     public static final int DEFAULT_LIMIT = 20;
     private final AppleMusicApi appleMusicApi;
 
@@ -41,8 +38,10 @@ public class AppleMusicServiceImpl implements AppleMusicService {
                           String id,
                           String token) {
         try {
+            log.debug("request {} ", tracks.values().stream().flatMap(Collection::stream).map(Track::toString)
+                    .collect(Collectors.joining("\n")));
             appleMusicApi.addTracksToPlaylist(tracks, id, token);
-        } catch (FeignException.GatewayTimeout e) {
+        } catch (Exception e) {
             log.warn("", e);
         }
     }

@@ -2,9 +2,11 @@ package site.iivum.ncmtoam.apple.model;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class PlaylistItem {
     public long id;
     public String songName;

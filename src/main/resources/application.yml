@@ -1,32 +1,32 @@
 apple-music:
-  develop-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpYXQiOjE1ODc0OTYxNDksImV4cCI6MTU5Mzc\
-    xNjk0OSwiaXNzIjoiQU1QV2ViUGxheSJ9.Hqatp-1xg8JMDxopNMmHPw_KFloBN9YWqyev4gba9ayik5uBP6FQeiqH-YiIJk4JUKlmuetbMVZSnNadJ1w\
-    3VA
+  develop-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpYXQiOjE2MjA2NzE0NTEsImV4cCI6MTYyNjg5MjI1MSwiaXNzIjoiQU1QV2ViUGxheSJ9.WtLznND9j8CIw1BBV39PTCLtkymAe3Na036XuXoGlnICncRCXSon4MUaW6i7E-aGmhAl8pD4qzBh6uv_gBj2cA
 logging:
   level:
     site.iivum.ncmtoam.apple.AppleMusicApi: debug
 server:
-  ssl:
-    key-store-type: PKCS12
-    enabled: true
-    key-store: ${PFX_PATH}
-    key-store-password: ${PFX_PASSWORD}
-    protocol: TLS
+  #  ssl:
+  #    key-store-type: PKCS12
+  #    enabled: true
+  #    key-store: ${PFX_PATH}
+  #    key-store-password: ${PFX_PASSWORD}
+  #    protocol: TLS
   port: 8080
   tomcat:
     connection-timeout: 5m
     accesslog:
-      enabled:
+      enabled: true
 spring:
   mvc:
     async:
       request-timeout: 5m
   redis:
-    host: localhost
+    host: 192.168.8.177
   cache:
     type: redis
 feign:
   httpclient:
     connection-timeout: 500000
     time-to-live-unit: seconds
+    time-to-live: 500000
+    enabled: true
 

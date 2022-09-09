@@ -11,7 +11,10 @@ public interface NetEaseMusicToAppleMusicService {
     site.iivum.ncmtoam.apple.model.Song match(Song neteaseSong,
                                               List<site.iivum.ncmtoam.apple.model.Song> appleMusicSong);
 
-    Playlist genPlaylist(long id, String name, Integer limit) throws Exception;
+    site.iivum.ncmtoam.apple.model.Song strictMatch(Song neteaseSong,
+                                                    List<site.iivum.ncmtoam.apple.model.Song> appleMusicSong);
 
-    String syncPlaylist(long id, String playlistId, String token) throws Exception;
+    Playlist genPlaylist(long id, String name, Integer limit, boolean strictMatch) throws Exception;
+
+    String syncPlaylist(long id, String playlistId, String token, boolean strict) throws Exception;
 }

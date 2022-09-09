@@ -1,11 +1,12 @@
 package site.iivum.ncmtoam.netease.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
+import reactor.core.publisher.Flux;
+import reactor.core.scheduler.Schedulers;
 import site.iivum.ncmtoam.apple.model.PlaylistItem;
 import site.iivum.ncmtoam.apple.model.Track;
 import site.iivum.ncmtoam.apple.service.AppleMusicService;
@@ -13,9 +14,11 @@ import site.iivum.ncmtoam.netease.api.NCMAPI;
 import site.iivum.ncmtoam.netease.handler.ResultHandler;
 import site.iivum.ncmtoam.netease.model.Artist;
 import site.iivum.ncmtoam.netease.model.Playlist;
+import site.iivum.ncmtoam.netease.model.Result;
 import site.iivum.ncmtoam.netease.model.Song;
 import site.iivum.ncmtoam.netease.service.NetEaseMusicToAppleMusicService;
 
+import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -24,6 +27,7 @@ import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 @Service
@@ -45,11 +49,20 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
     @Override
     public List<Song> getNetEaseSongInfosByPlaylistId(long id, Integer limit) throws Exception {
         Playlist playlist = ResultHandler.handle(NCMAPI.playlist(id)).getPlaylist();
-        long[] songIds = playlist.getSongIds().stream().mapToLong(i -> (long) i).toArray();
+        Long[] songIds = playlist.getSongIds().stream().map(Integer::longValue).toArray(Long[]::new);
         if (limit != null) {
             return ResultHandler.handle(NCMAPI.detail(songIds)).getSongs().subList(0, limit);
         }
-        return ResultHandler.handle(NCMAPI.detail(songIds)).getSongs();
+        return Flux.fromArray(songIds)
+                .buffer(1000)
+                .map(it -> NCMAPI.detail(it.toArray(new Long[0])))
+                .map(ResultHandler::handle)
+                .map(Result::getSongs)
+                .flatMap(Flux::fromIterable)
+                .collect(Collectors.toList())
+                .block();
+
+
     }
 
     @Override
@@ -57,12 +70,42 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
                                                      List<site.iivum.ncmtoam.apple.model.Song> appleMusicSong) {
 
         if (!CollectionUtils.isEmpty(appleMusicSong)) {
-            return appleMusicSong.stream()
+
+            final Supplier<site.iivum.ncmtoam.apple.model.Song> thirdLevel = () -> appleMusicSong.stream()
                     .min(Comparator.comparingInt(trackers -> totalLevenshteinDistance(neteaseSong, trackers)))
                     .orElse(null);
+            final Supplier<site.iivum.ncmtoam.apple.model.Song> secondLevel = () -> appleMusicSong.stream()
+                    .filter(it -> it.anyMatch(neteaseSong))
+                    .findFirst()
+                    .orElseGet(thirdLevel);
+            return appleMusicSong.stream()
+                    .filter(it -> it.allMatch(neteaseSong))
+                    .findFirst()
+                    .orElseGet(secondLevel);
         }
         return null;
     }
+
+    @Override
+    public site.iivum.ncmtoam.apple.model.Song strictMatch(Song neteaseSong,
+                                                           List<site.iivum.ncmtoam.apple.model.Song> appleMusicSong) {
+        if (CollectionUtils.isEmpty(appleMusicSong)) {
+            return null;
+        }
+        String neteaseAlbumName = neteaseSong.getAlbumName();
+        String neteaseSongName = neteaseSong.getName();
+        List<String> neteaseArtists = neteaseSong.getAr().stream().map(Artist::getName).collect(Collectors.toList());
+
+        final Comparator<site.iivum.ncmtoam.apple.model.Song> comparator = Comparator.<site.iivum.ncmtoam.apple.model.Song, Boolean>comparing(song -> neteaseSongName.equalsIgnoreCase(song.getName()))
+                .thenComparing(song -> neteaseArtists.stream()
+                        .filter(Objects::nonNull).filter(artistName -> artistName.equalsIgnoreCase(song.getArtistName())).count())
+                .thenComparing(song -> neteaseAlbumName != null && song.getAlbumName() != null && neteaseAlbumName.equalsIgnoreCase(song.getAlbumName()));
+        return appleMusicSong.stream()
+                .filter(Objects::nonNull)
+                .max(comparator)
+                .orElse(null);
+    }
+
 
     private int totalLevenshteinDistance(Song neteaseSong, site.iivum.ncmtoam.apple.model.Song appleMusicSong) {
         final LevenshteinDistance levenshteinDistance = LevenshteinDistance.getDefaultInstance();
@@ -70,24 +113,28 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
         final String aSongName = appleMusicSong.getName();
         final String nAlbumName = neteaseSong.getAlbumName();
         final String aAlbumName = appleMusicSong.getAlbumName();
-        final String aArtiestName = appleMusicSong.getArtistName();
+        final String aArtiestName = appleMusicSong.getArtistName().toLowerCase().trim();
         final int arSum = neteaseSong.getAr()
-                .stream().map(Artist::getName).mapToInt(an -> levenshteinDistance.apply(aArtiestName, an)).sum();
-        return levenshteinDistance.apply(nSongName.toLowerCase(), aSongName.toLowerCase()) +
-                levenshteinDistance.apply(nAlbumName.toLowerCase(), aAlbumName.toLowerCase()) +
-                arSum;
+                .stream()
+                .map(Artist::getName)
+                .mapToInt(an -> levenshteinDistance.apply(aArtiestName, an))
+                .sum();
+        return levenshteinDistance.apply(aSongName.toLowerCase().trim(), nSongName.toLowerCase().trim()) * 50 +
+                levenshteinDistance.apply(aAlbumName.toLowerCase().trim(), nAlbumName.toLowerCase().trim()) * 30 +
+                arSum * 40;
     }
 
     @Override
-    public site.iivum.ncmtoam.apple.model.Playlist genPlaylist(long id, String name, Integer limit) throws Exception {
+    public site.iivum.ncmtoam.apple.model.Playlist genPlaylist(long id, String name, Integer limit, boolean strict) throws Exception {
         List<Song> songs = getNetEaseSongInfosByPlaylistId(id, limit);
         List<PlaylistItem> playlistItemList = songs.stream()
                 .map(song ->
-                        CompletableFuture.supplyAsync(() -> normalizedSong(song), requestThreadPool))
+                        CompletableFuture.supplyAsync(() -> normalizedSong(song, strict), requestThreadPool))
                 .collect(Collectors.toList())
                 .stream()
                 .map(CompletableFuture::join)
                 .collect(Collectors.toList());
+
 
         return site.iivum.ncmtoam.apple.model.Playlist
                 .builder()
@@ -110,31 +157,62 @@ public class NetEaseMusicToAppleMusicServiceImpl implements NetEaseMusicToAppleM
     }
 
     @Override
-    public String syncPlaylist(long id, String playlistId, String token) throws Exception {
-        final site.iivum.ncmtoam.apple.model.Playlist playlist = genPlaylist(id, "anyName", null);
-        final List<Track> tracks = playlist.getItems().stream()
+    public String syncPlaylist(long id, String playlistId, String token, boolean strict) throws Exception {
+        final site.iivum.ncmtoam.apple.model.Playlist playlist = genPlaylist(id, "anyName", null, strict);
+        log.info("play list\n {} ", playlist.getItems().stream().map(PlaylistItem::toString).collect(Collectors.joining("\n")));
+        final List<Track> tracks = playlist.getItems()
+                .stream()
                 .map(item -> Track.builder().id(item.id).types(TRACK_TYPES).build())
                 .collect(Collectors.toList());
-        final HashMap<String, List<Track>> body = new HashMap<>();
-        body.put("data", tracks);
-        appleMusicService.addTracks(body, playlistId, token);
+        Flux.fromIterable(tracks)
+                .buffer(50)
+                .subscribeOn(Schedulers.single())
+                .map(buf -> {
+                    final HashMap<String, List<Track>> body = new HashMap<>();
+                    body.put("data", buf);
+                    return body;
+                })
+                .doOnEach(body -> {
+                    if (body.hasValue()) {
+                        appleMusicService.addTracks(body.get(), playlistId, token);
+                    }
+                })
+                .retry()
+                .subscribe();
         return String.join("\n", playlist.getFailed());
     }
 
-    @SneakyThrows
-    private PlaylistItem normalizedSong(Song song) {
+    private PlaylistItem normalizedSong(Song song, boolean strictMatch) {
         String songName = removeBrackets(song.getName(), LEFT_BRACKET, RIGHT_BRACKET);
         songName = removeBrackets(songName, LEFT_SQUARE_BRACKET, RIGHT_SQUARE_BRACKET);
-        songName = removeBrackets(songName, CHINESE_LEFT_BRACKET, CHINESE_RIGHT_BRACKET);
-        String encodedName = URLEncoder.encode(songName.trim(), "utf-8");
+        songName = removeBrackets(songName, CHINESE_LEFT_BRACKET, CHINESE_RIGHT_BRACKET).trim();
+
+        String artistsName = song.getAr().stream().map(Artist::getName).collect(Collectors.joining(" "));
+        String albumName = song.getAlbumName();
+        try {
+
+            songName = URLEncoder.encode(songName, "utf-8");
+            artistsName = URLEncoder.encode(artistsName, "utf-8");
+            albumName = albumName == null ? "" : URLEncoder.encode(albumName, "utf-8");
+
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
+        String term = songName.trim() + " " +
+                artistsName;
+        term = term.replaceAll(" ", "+");
         List<site.iivum.ncmtoam.apple.model.Song> appleMusicSongs =
-                appleMusicService.search(encodedName);
+                appleMusicService.search(term);
         if (!appleMusicSongs.isEmpty()) {
-            site.iivum.ncmtoam.apple.model.Song matchedSong = match(song, appleMusicSongs);
+            site.iivum.ncmtoam.apple.model.Song matchedSong = strictMatch ?
+                    strictMatch(song, appleMusicSongs)
+                    : match(song, appleMusicSongs);
             if (matchedSong != null) {
                 return new PlaylistItem(matchedSong);
             }
         }
+
         return new PlaylistItem(-1, song.getName(), true);
     }
 

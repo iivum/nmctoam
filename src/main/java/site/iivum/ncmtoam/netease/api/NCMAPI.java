@@ -1,5 +1,6 @@
 package site.iivum.ncmtoam.netease.api;
 
+import lombok.SneakyThrows;
 import okhttp3.FormBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -29,7 +30,7 @@ public class NCMAPI {
 
     /* Request configuration */
     private static final String USERAGENT = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.157 Safari/537.36";
-    private static final String COOKIE = "os=pc; osver=Microsoft-Windows-10-Professional-build-10586-64bit; appver=2.0.3.131777; channel=netease; __remember_me=true";
+    private static final String COOKIE = "MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/eapi/feedback;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/neapi/feedback;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/weapi/feedback;;__csrf=6a92fa74748533c190b5d3c4efaddb66; Max-Age=1296010; Expires=Sat, 24 Sep 2022 03:14:34 GMT; Path=/;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/wapi/feedback;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/neapi/clientlog;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/weapi/clientlog;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/wapi/clientlog;;MUSIC_SNS=; Max-Age=0; Expires=Fri, 09 Sep 2022 03:14:24 GMT; Path=/;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/api/feedback;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/wapi/clientlog;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/api/clientlog;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/eapi/clientlog;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/openapi/clientlog;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/weapi/feedback;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/neapi/clientlog;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/neapi/feedback;;__remember_me=true; Max-Age=1296000; Expires=Sat, 24 Sep 2022 03:14:24 GMT; Path=/;;MUSIC_U=4d68136e1fc52f7aaa03e87ac1c604e4f57ef65104107732a3813f1ae0fb83d21e8907c67206e1edf4d7f06d3357b61747d4f223e7d87cd14913cafe03e4f7fdc5b35ac2b235018aa89fe7c55eac81f3; Max-Age=1296000; Expires=Sat, 24 Sep 2022 03:14:24 GMT; Path=/;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/openapi/clientlog;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/eapi/feedback;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/wapi/feedback;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/api/feedback;;MUSIC_A_T=1471015234759; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/api/clientlog;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/eapi/clientlog;;MUSIC_R_T=1478595414685; Max-Age=2147483647; Expires=Wed, 27 Sep 2090 06:28:31 GMT; Path=/weapi/clientlog;";
     private static final String REFERER = "http://music.163.com/";
 
     /**
@@ -173,9 +174,9 @@ public class NCMAPI {
      *
      * @param ids Song id
      * @return JSON string
-     * @throws Exception Request error
      */
-    public static String detail(long... ids) throws Exception {
+    @SneakyThrows
+    public static String detail(Long... ids) {
         int length = ids.length;
         String[] c = new String[length];
         for (int i = 0; i < length; i++) {

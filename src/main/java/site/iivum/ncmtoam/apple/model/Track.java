@@ -13,4 +13,9 @@ import lombok.Data;
 public class Track {
     private long id;
     private String types;
+
+    @Override
+    public String toString() {
+        return "(" + types + " : " + id + ")";
+    }
 }

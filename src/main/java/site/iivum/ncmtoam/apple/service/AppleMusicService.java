@@ -9,7 +9,7 @@ import java.util.Map;
 public interface AppleMusicService {
     List<Song> search(String term);
 
-    public void addTracks(Map<String, List<Track>> tracks,
-                          String id,
-                          String token);
+    void addTracks(Map<String, List<Track>> tracks,
+                   String id,
+                   String token);
 }
